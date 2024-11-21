@@ -1,0 +1,57 @@
+{
+  "events" : [ {
+    "name" : "lunch with bob",
+    "category" : "important",
+    "location" : "room 11",
+    "startTime" : "10:30",
+    "startDate" : "2024-04-28",
+    "endTime" : "12:30",
+    "endRepeatingDate" : "2024-04-28",
+    "repeatingDays" : null
+  }, {
+    "name" : "Meeting with Bob",
+    "category" : "business",
+    "location" : "Board Room",
+    "startTime" : "13:15",
+    "startDate" : "2024-05-06",
+    "endTime" : "14:15",
+    "endRepeatingDate" : "2024-05-06",
+    "repeatingDays" : [ "Monday", "Wednesday", "Friday" ]
+  }, {
+    "name" : "interview",
+    "category" : "important",
+    "location" : "room1",
+    "startTime" : "09:00",
+    "startDate" : "2024-06-01",
+    "endTime" : "10:00",
+    "endRepeatingDate" : "2024-06-01",
+    "repeatingDays" : [ "Monday", "Friday" ]
+  }, {
+    "name" : "testing",
+    "category" : "business",
+    "location" : "room 200",
+    "startTime" : "18:30",
+    "startDate" : "2024-07-01",
+    "endTime" : "19:30",
+    "endRepeatingDate" : "2024-07-01",
+    "repeatingDays" : null
+  }, {
+    "name" : "morning walk",
+    "category" : "social",
+    "location" : "nature",
+    "startTime" : "05:30",
+    "startDate" : "2024-04-26",
+    "endTime" : "06:00",
+    "endRepeatingDate" : "2024-04-26",
+    "repeatingDays" : null
+  }, {
+    "name" : "picnic",
+    "category" : "social",
+    "location" : "metro parks",
+    "startTime" : "10:30",
+    "startDate" : "2024-04-30",
+    "endTime" : "11:30",
+    "endRepeatingDate" : "2024-04-30",
+    "repeatingDays" : null
+  } ]
+}

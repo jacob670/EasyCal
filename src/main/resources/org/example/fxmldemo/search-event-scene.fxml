@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="1000.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.fxmldemo.SearchEventController">
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="50.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="How do you want to search?" textFill="#e41919">
+                    <font>
+                        <Font name="Serif Bold Italic" size="22.0" />
+                    </font>
+                </Label>
+                <Button mnemonicParsing="false" onAction="#searchByCategory" text="Search By Category" textFill="#2197ff">
+                    <font>
+                        <Font name="Serif Regular" size="22.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#searchByName" text="Search By Name" textFill="#2197ff">
+                    <font>
+                        <Font name="Serif Regular" size="22.0" />
+                    </font>
+                </Button>
+                <Label fx:id="welcomeMessage" minWidth="400.0" text="&quot;Search By Category&quot; can help you get a chunk of events based off their category" textFill="#1d9444">
+                    <font>
+                        <Font name="Serif Regular" size="25.0" />
+                    </font>
+                </Label>
+                <Label fx:id="welcomeMessage1" minWidth="400.0" text="&quot;Search By Name&quot; is a easy way to get a specific event, only if you know the name" textAlignment="CENTER" textFill="#1d9444" wrapText="true">
+                    <font>
+                        <Font name="Serif Regular" size="25.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

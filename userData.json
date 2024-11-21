@@ -1,0 +1,9 @@
+{
+  "ApplicationUser" : {
+    "firstName" : "Bob",
+    "lastName" : "Neutron",
+    "company" : "Nick",
+    "position" : "Scientist",
+    "isFullTime" : true
+  }
+}
